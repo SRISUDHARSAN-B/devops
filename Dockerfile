@@ -4,7 +4,7 @@ FROM nginx:latest
 
 
 # Copy static website files (if any)
-COPY /public /nginx.html
+COPY ./public /nginx.html
 
 # Expose port 80
 EXPOSE 80
